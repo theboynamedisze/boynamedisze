@@ -1,0 +1,186 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap');
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: 'Orbitron', sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+
+.container {
+    max-width: 600px;
+    margin: auto;
+}
+
+h1 {
+    font-size: 40px;
+    text-shadow: 0 0 10px cyan, 0 0 20px cyan;
+}
+
+p {
+    font-size: 18px;
+    color: #ccc;
+}
+
+.neon-button {
+    background: transparent;
+    border: 2px solid cyan;
+    color: cyan;
+    font-size: 18px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: 0.3s;
+    text-shadow: 0 0 5px cyan;
+    box-shadow: 0 0 10px cyan, 0 0 20px cyan inset;
+}
+
+.neon-button:hover {
+    background: cyan;
+    color: black;
+    box-shadow: 0 0 20px cyan;
+}
+.booking, .ai-assistant {
+    margin-top: 30px;
+    padding: 20px;
+    border: 2px solid cyan;
+    border-radius: 10px;
+    box-shadow: 0 0 10px cyan;
+}
+
+.booking input, .ai-assistant input {
+    display: block;
+    width: 80%;
+    margin: 10px auto;
+    padding: 10px;
+    border: 1px solid cyan;
+    background: black;
+    color: white;
+    text-align: center;
+}
+
+#aiResponse {
+    margin-top: 10px;
+    font-size: 16px;
+    color: cyan;
+    text-shadow: 0 0 5px cyan;
+}
+/* Neon Glow Button Animation */
+.neon-button {
+    background: transparent;
+    border: 2px solid cyan;
+    color: cyan;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px cyan;
+}
+
+.neon-button:hover {
+    background: cyan;
+    color: black;
+    box-shadow: 0 0 20px cyan;
+}
+
+/* Smooth Fade-in for AI Response */
+#aiResponse {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.show-response {
+    opacity: 1;
+}
+
+/* Neon Input Fields */
+input {
+    background: black;
+    color: white;
+    border: 1px solid cyan;
+    padding: 10px;
+    font-size: 16px;
+    text-align: center;
+    box-shadow: 0 0 5px cyan;
+}
+/* Default Dark Mode */
+body {
+    background: black;  /* Dark background */
+    color: white;       /* Light text */
+    transition: background 0.5s, color 0.5s; /* Smooth transition */
+}
+
+/* Light Mode Styles */
+.light-mode {
+    background: white;  /* Light background */
+    color: black;       /* Dark text */
+}
+
+/* Light Mode for Input Fields */
+.light-mode input {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+/* Light Mode for Buttons */
+.light-mode .neon-button {
+    border: 2px solid black;
+    color: black;
+    box-shadow: none;
+}
+
+.light-mode .neon-button:hover {
+    background: black;
+    color: white;
+    box-shadow: 0 0 10px gray;
+}
+/* Flight Booking Form Styling */
+form {
+    background: rgba(0, 0, 0, 0.6); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 255, 255, 0.5); /* Neon glow */
+    max-width: 400px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+/* Input Fields */
+input {
+    width: 90%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+    background: black;
+    color: cyan;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0, 255, 255, 0.5);
+}
+
+/* Neon Button */
+.neon-button {
+    background: black;
+    color: cyan;
+    border: 2px solid cyan;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 10px cyan;
+}
+
+.neon-button:hover {
+    background: cyan;
+    color: black;
+    box-shadow: 0 0 20px cyan;
+}
+
+/* Flight Results Styling */
+#flightResults {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 18px;
+    color: cyan;
+}
